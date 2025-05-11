@@ -193,7 +193,7 @@
           "isActive": true,
           "start": "2025",
           "end": "2025",
-          "url": "https://cv.mmarcode.vercel.app/",
+          "url": "",
           "techStack": ["Vite", "React", "Tailwind CSS"]
         }
       ]
@@ -394,7 +394,7 @@
           "isActive": true,
           "start": "2025",
           "end": "2025",
-          "url": "https://cv.mmarcode.vercel.app/",
+          "url": "",
           "techStack": ["Vite", "React", "Tailwind CSS"]
         }
       ]

@@ -10,7 +10,7 @@ import LocationIcon from '../../icons/LocationIcon'
 import PhoneIcon from '../../icons/PhoneIcon'
 import WebsiteIcon from '../../icons/WebsiteIcon'
 
-const SOCIAL_ICONS = { GitHubIcon, LinkedInIcon };
+const SOCIAL_ICONS = { GitHub: GitHubIcon, LinkedIn: LinkedInIcon };
 
 const Location = ({ link, city, region, countryCode }) => (
   <p className="max-w-md mt-1.5 items-center text-pretty font-mono text-xs text-gray-900">
@@ -49,7 +49,7 @@ const ContactButton = ({ website, email, phone, profiles, onLanguageChange }) =>
     {website && (<LinkButton href={ website } label="Personal website" icon={<WebsiteIcon />}/>)}
     {
       profiles.map(({ network, url, username }) => {
-        const Icon = SOCIAL_ICONS[`${ network }Icon`];
+        const Icon = SOCIAL_ICONS[network];
         return (<LinkButton key={ network + username } href={ url } label={`${ network } - ${ username }`} icon={<Icon width={ 24 } height={ 24 }/>} />)
       })
     }

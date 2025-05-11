@@ -3,14 +3,14 @@ import { useTranslation } from 'react-i18next'
 import { useLanguage } from '../../hooks/useLanguage'
 import Section from '../ui/Section'
 import EmailIcon  from '../../icons/EmailIcon'
-import GitHubIcon from '../../icons/GitHubIcon'
+import GithubIcon from '../../icons/GithubIcon'
 import LanguageIcon from '../../icons/LanguajeIcon'
 import LinkedInIcon from '../../icons/LinkedinIcon'
 import LocationIcon from '../../icons/LocationIcon'
 import PhoneIcon from '../../icons/PhoneIcon'
 import WebsiteIcon from '../../icons/WebsiteIcon'
 
-const SOCIAL_ICONS = { GitHub: GitHubIcon, LinkedIn: LinkedInIcon };
+const SOCIAL_ICONS = { GitHub: GithubIcon, LinkedIn: LinkedInIcon };
 
 const Location = ({ link, city, region, countryCode }) => (
   <p className="max-w-md mt-1.5 items-center text-pretty font-mono text-xs text-gray-900">

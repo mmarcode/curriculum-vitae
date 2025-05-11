@@ -38,4 +38,8 @@ Please make sure to update tests as appropriate.
 
 ## 🔑 License
 
-[MIT](LICENSE.txt) - Creado por [**mmarcode**](https://mmarcode.vercel.app/).
+[MIT](LICENSE.txt)
+
+<div align="center">
+  🌵 <strong>Crafted by — mmarcode</strong>
+</div>

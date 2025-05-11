@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Education from './components/sections/Education'
 import Header from './components/sections/Header'
 import Projects from './components/sections/Projects'
@@ -16,8 +15,8 @@ function App() {
         <Summary />
         <WorkExperience />
         <Education />
-        <Projects />
         <Skills />
+        <Projects />
       </div>
     </div>
   )

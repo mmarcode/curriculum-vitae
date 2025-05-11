@@ -1,242 +1,403 @@
 {
   "en": {
-    "headers": {
-      "about": "About",
-      "experience": "Work Experience",
-      "education": "Education",
-      "projects": "Projects",
-      "skills": "Skills"
-    },
-    "basics": {
-      "name": "Marco A. Miranda Galicia",
-      "label": "Detail-oriented full-stack developer turning ideas into scalable, reliable, and efficient applications.",
-      "image": "https://avatars.githubusercontent.com/u/72531720?s=400&amp;u=57a65ece990ba90f8ef4801dcff1a0c3c6bdbc33&amp;v=4",
-      "email": "mmarcode@gmail.com",
-      "phone": "(+52) 55 3230 6279",
-      "website": "https://mmarcode.vercel.app",
-      "summary": "I specialize in full-stack development, building clean, maintainable solutions from backend to frontend. I’m passionate about clean code, thoughtful architecture, and delivering results that solve real problems.",
-      "location": {
-        "city": "Nicolás Romero",
-        "countryCode": "MEX",
-        "region": "México",
-        "link": "https://maps.app.goo.gl/hqubZwYiSLwQcXm78"
+    "translation": {
+      "labels": {
+        "about": "About",
+        "experience": "Work Experience",
+        "education": "Education",
+        "projects": "Side Projects",
+        "skills": "Skills",
+        "period": "Present"
       },
-      "profiles": [{
-        "network": "GitHub",
-        "username": "mmarcode",
-        "url": "https://github.com/mmarcode"
-      }, {
-        "network": "LinkedIn",
-        "username": "mmarcode",
-        "url": "https://www.linkedin.com/in/mmarcode/"
-      }]
-    },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "basics": {
+        "name": "Marco A. Miranda Galicia",
+        "label": "Detail-oriented full-stack developer dedicated to turning ideas into scalable, reliable, and efficient applications.",
+        "image": "https://avatars.githubusercontent.com/u/72531720?s=400&amp;u=57a65ece990ba90f8ef4801dcff1a0c3c6bdbc33&amp;v=4",
+        "email": "mmarcode@gmail.com",
+        "phone": "(+52) 55 3230 6279",
+        "website": "https://mmarcode.vercel.app",
+        "summary": [
+          "I specialize in full-stack development, building clean, maintainable solutions from backend to frontend. I’m passionate about clean code, thoughtful architecture, and delivering results that solve real problems.",
+          "I believe in continuous learning and staying ahead in a fast-evolving tech landscape. My goal is to build software that not only works—but works beautifully, earns trust, and creates impact."
+        ],
+        "location": {
+          "city": "Nicolás Romero",
+          "countryCode": "MEX",
+          "region": "México",
+          "link": "https://maps.app.goo.gl/hqubZwYiSLwQcXm78"
+        },
+        "profiles": [{
+          "network": "GitHub",
+          "username": "mmarcode",
+          "url": "https://github.com/mmarcode"
+        }, {
+          "network": "LinkedIn",
+          "username": "mmarcode",
+          "url": "https://www.linkedin.com/in/mmarcode/"
+        }]
+      },
+      "works": [
+        {
+        "company": "Next-Cloud",
+        "title": "Full Stack Developer",
+        "link": "https://www.next-cloud.mx/",
+        "start": "sep 2017",
+        "end": null,
+        "description": [
+          "Analysis, development, maintenance, and bug fixing for the company's ERP system.",
+          "Design and integration of RESTful services.",
+          "Development and support of the user management system.",
+          "Continuous development and maintenance of the Supplier Portal, including integration with the Appointment scheduling system.",
+          "Integration of electronic invoicing for Colombia and Peru.",
+          "Integration with shipping providers such as iVoy and Segmail."
+        ],
+        "badges": ["Remote","ColdFusion", "SQL Server", "React", "Node.js"]
+        },
+        {
+          "company": "Porvenir",
+          "title": "Full Stack Developer",
+          "link": "https://porvenirsofipo.mx/",
+          "start": "nov 2016",
+          "end": "sep 2017",
+          "description": [
+            "Design and development of the debt forgiveness system.",
+            "Development and integration of RESTful services.",
+            "Maintenance and troubleshooting of various internal applications."
+          ],
+          "badges": ["On Site", "C#", "SQL Server", "ASP.NET"]
+        },
+        {
+          "company": "Ikniu",
+          "title": "Backend Developer",
+          "link": "https://www.linkedin.com/company/venders/",
+          "start": "aug 2016",
+          "end": "nov 2016",
+          "description": [
+            "Development and maintenance of the points and rewards system."
+          ],
+          "badges": ["On Site","Node.js","Sails.js","MongoDB","AngularJS"]
+        },
+        {
+          "company": "Etomin",
+          "title": "Backend Developer",
+          "link": "https://www.linkedin.com/company/venders/",
+          "start": "jan 2016",
+          "end": "aug 2016",
+          "description": [
+            "Development and maintenance of the company’s payment gateway."
+          ],
+          "badges": ["On Site","Node.js","Sails.js","MongoDB","AngularJS"]
+        },
+        {
+          "company": "Next-Cloud",
+          "title": "Backend Developer",
+          "link": "https://www.next-cloud.mx/",
+          "start": "may 2012",
+          "end": "jan 2016",
+          "description": [
+            "Analysis, development, and maintenance of the company's ERP system.",
+            "Design and integration of SOAP and REST web services."
+          ],
+          "badges": ["On Site","ColdFusion", "SQL Server"]
+        }
       ],
-      "url": "https://project.com/"
-    }]
+      "education": [{
+        "institution": "Fidel Velázquez Technological University",
+        "abbreviation": "UTFV",
+        "url": "https://utfv.edomex.gob.mx/",
+        "area": "Information Technology Engineer",
+        "degree": "Engineering",
+        "start": "jun 2007",
+        "end": "oct 2011",
+        "score": "8.5",
+        "courses": []
+      }],
+      "skills": [
+        {
+          "name": "HTML",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend"
+          ]
+        }, {
+          "name": "CSS",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Diseño Responsive"
+          ]
+        }, {
+          "name": "JavaScript",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+          ]
+        }, {
+          "name": "Tailwind",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        }, {
+          "name": "Node",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+        }, {
+          "name": "Git",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente"
+          ]
+        }, {
+          "name": "ColdFusion",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo", "Backend"
+          ]
+        }, {
+          "name": "React",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          ]
+        }, {
+          "name": "SQL Server",
+          "level": "Avanzado",
+          "keywords": [
+            "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Spanish",
+          "fluency": "Native speaker"
+        }, {
+          "language": "English",
+          "fluency": "Basic"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Portfolio",
+          "description": "The project features a clean UI, dark/light mode support, multilingual support, and seamless deployment. It includes a fully automated development and production workflow using Docker and Makefile, ensuring portability and consistency across environments.",
+          "isActive": true,
+          "start": "2025",
+          "end": "2025",
+          "url": "https://mmarcode.vercel.app/",
+          "techStack": ["Vite", "React", "Tailwind CSS"]
+        }, {
+          "name": "Curriculum vitae",
+          "description": "A minimalist, print-friendly curriculum vitae that can be configured with a single JSON file.",
+          "isActive": true,
+          "start": "2025",
+          "end": "2025",
+          "url": "https://cv.mmarcode.vercel.app/",
+          "techStack": ["Vite", "React", "Tailwind CSS"]
+        }
+      ]
+    }
   },
   "es": {
-    "headers": {
-      "about": "Sobre mi",
-      "experience": "Experiencia laboral",
-      "education": "Educación",
-      "projects": "Proyectos",
-      "skills": "Habilidades"
-    },
-    "basics": {
-      "name": "Marco A. Miranda Galicia",
-      "label": "Desarrollador full-stack orientado a los detalles que convierte ideas en aplicaciones escalables, confiables y eficientes.",
-      "image": "https://avatars.githubusercontent.com/u/72531720?s=400&amp;u=57a65ece990ba90f8ef4801dcff1a0c3c6bdbc33&amp;v=4",
-      "email": "mmarcode@gmail.com",
-      "phone": "(+52) 55 3230 6279",
-      "website": "https://mmarcode.vercel.app",
-      "summary": "Me especializo en desarrollo full-stack, construyendo soluciones limpias y mantenibles desde el backend hasta el frontend. Me apasiona escribir código limpio, diseñar arquitecturas bien pensadas y entregar resultados que resuelvan problemas reales.",
-      "location": {
-        "city": "Nicolás Romero",
-        "countryCode": "MEX",
-        "region": "México",
-        "link": "https://maps.app.goo.gl/hqubZwYiSLwQcXm78"
+    "translation": {
+      "labels": {
+        "about": "Sobre mí",
+        "experience": "Experiencia laboral",
+        "education": "Educación",
+        "projects": "Proyectos personales",
+        "skills": "Habilidades",
+        "period": "Actualidad"
       },
-      "profiles": [{
-        "network": "GitHub",
-        "username": "mmarcode",
-        "url": "https://github.com/mmarcode"
-      }, {
-        "network": "LinkedIn",
-        "username": "mmarcode",
-        "url": "https://www.linkedin.com/in/mmarcode/"
-      }]
-    },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "basics": {
+        "name": "Marco A. Miranda Galicia",
+        "label": "Desarrollador full-stack orientado a los detalles, dedicado a convertir ideas en aplicaciones escalables, confiables y eficientes.",
+        "image": "https://avatars.githubusercontent.com/u/72531720?s=400&amp;u=57a65ece990ba90f8ef4801dcff1a0c3c6bdbc33&amp;v=4",
+        "email": "mmarcode@gmail.com",
+        "phone": "(+52) 55 3230 6279",
+        "website": "https://mmarcode.vercel.app",
+        "summary": [
+          "Me especializo en desarrollo full-stack, construyendo soluciones limpias y mantenibles desde el backend hasta el frontend. Me apasiona escribir código limpio, diseñar arquitecturas bien pensadas y entregar resultados que resuelvan problemas reales.",
+          "Creo en el aprendizaje continuo y en mantenerme a la vanguardia en un panorama tecnológico en constante evolución. Mi objetivo es crear software que no solo funcione, sino que funcione a la perfección, genere confianza y genere impacto."
+        ],
+        "location": {
+          "city": "Nicolás Romero",
+          "countryCode": "MEX",
+          "region": "México",
+          "link": "https://maps.app.goo.gl/hqubZwYiSLwQcXm78"
+        },
+        "profiles": [{
+          "network": "GitHub",
+          "username": "mmarcode",
+          "url": "https://github.com/mmarcode"
+        }, {
+          "network": "LinkedIn",
+          "username": "mmarcode",
+          "url": "https://www.linkedin.com/in/mmarcode/"
+        }]
+      },
+      "works": [
+        {
+          "company": "Next-Cloud",
+          "title": "Desarrollador Full Stack",
+          "link": "https://www.next-cloud.mx/",
+          "start": "sep 2017",
+          "end": null,
+          "description": [
+            "Análisis, desarrollo, mantenimiento y corrección de funcionalidades del ERP de la empresa.",
+            "Desarrollo e integración de servicios REST.",
+            "Diseño y mantenimiento del sistema de administración de usuarios.",
+            "Desarrollo y soporte continuo del Portal de Proveedores, incluyendo la integración con el sistema de citas Appointment.",
+            "Integración de facturación electrónica para Colombia y Perú.",
+            "Integración con plataformas de paquetería como iVoy y Segmail."
+          ],
+          "badges": ["En remoto","ColdFusion", "SQL Server", "React", "Node.js"]
+        },
+        {
+          "company": "Porvenir",
+          "title": "Desarrollador Full Stack",
+          "link": "https://porvenirsofipo.mx/",
+          "start": "nov 2016",
+          "end": "sep 2017",
+          "description": [
+            "Análisis y desarrollo del sistema de condonaciones.",
+            "Desarrollo e integración de servicios REST.",
+            "Mantenimiento y corrección de diversas aplicaciones internas."
+          ],
+          "badges": ["Presencial","C#","SQL Server","ASP.NET","AngularJs"]
+        },
+        {
+          "company": "Ikniu",
+          "title": "Desarrollador Backend",
+          "link": "https://www.linkedin.com/company/venders/",
+          "start": "ago 2016",
+          "end": "nov 2016",
+          "description": [
+            "Desarrollo y mantenimiento del sistema de programas de puntos y recompensas."
+          ],
+          "badges": ["Presencial","Node.js","Sails.js","MongoDB","AngularJS"]
+        },
+        {
+          "company": "Etomin",
+          "title": "Desarrollador Backend",
+          "link": "https://www.linkedin.com/company/venders/",
+          "start": "ene 2016",
+          "end": "ago 2016",
+          "description": [
+            "Desarrollo y mantenimiento de la pasarela de pagos de la empresa."
+          ],
+          "badges": ["Presencial","Node.js","Sails.js","MongoDB","AngularJS"]
+        },
+        {
+          "company": "Next-Cloud",
+          "title": "Desarrollador Backend",
+          "link": "https://www.next-cloud.mx/",
+          "start": "may 2012",
+          "end": "ene 2016",
+          "description": [
+            "Análisis, desarrollo y mantenimiento del ERP de la empresa.",
+            "Desarrollo e integración de servicios web SOAP y REST."
+          ],
+          "badges": ["Presencial","ColdFusion", "SQL Server"]
+        }
       ],
-      "url": "https://project.com/"
-    }]
+     "education": [{
+        "institution": "Universidad Tecnológica Fidel Velázquez",
+        "abbreviation": "UTFV",
+        "url": "https://utfv.edomex.gob.mx/",
+        "area": "Ingeniero en Tecnologías de la Información",
+        "degree": "Ingeniería",
+        "start": "jun 2007",
+        "end": "oct 2011",
+        "score": "8.5",
+        "courses": []
+      }],
+      "skills": [
+        {
+          "name": "HTML",
+          "icon": "Html",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend"
+          ]
+        }, {
+          "name": "CSS",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Diseño Responsive"
+          ]
+        }, {
+          "name": "JavaScript",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+          ]
+        }, {
+          "name": "Tailwind",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        }, {
+          "name": "Node",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+        }, {
+          "name": "Git",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente"
+          ]
+        }, {
+          "name": "ColdFusion",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo", "Backend"
+          ]
+        }, {
+          "name": "React",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          ]
+        }, {
+          "name": "SQL Server",
+          "level": "Avanzado",
+          "keywords": [
+            "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Español",
+          "fluency": "Hablante nativo"
+        }, {
+          "language": "Inglés",
+          "fluency": "Básico"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Portfolio",
+          "description": "El proyecto ofrece una interfaz limpia, soporte para modo claro/oscuro, soporte multilingüe y despliegue fluido. Incluye un flujo de trabajo automatizado para desarrollo y producción mediante Docker y Makefile, garantizando portabilidad y consistencia entre entornos.",
+          "isActive": true,
+          "start": "2025",
+          "end": "2025",
+          "url": "https://mmarcode.vercel.app/",
+          "techStack": ["Vite", "React", "Tailwind CSS"]
+        }, {
+          "name": "Curriculum vitae",
+          "description": "Un currículum vitae minimalista, fácil de imprimir y que se puede configurar con un único archivo JSON.",
+          "isActive": true,
+          "start": "2025",
+          "end": "2025",
+          "url": "https://cv.mmarcode.vercel.app/",
+          "techStack": ["Vite", "React", "Tailwind CSS"]
+        }
+      ]
+    }
   }
 }
